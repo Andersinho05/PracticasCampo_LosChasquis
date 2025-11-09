@@ -3,4 +3,6 @@ public class ActaFiscalizacion {
     String fecha;
     String tipoInfraccion;
     String evidencia;
+    public ActaFiscalizacion() {
+    }
 }
