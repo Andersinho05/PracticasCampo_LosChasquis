@@ -44,5 +44,18 @@ public class ActaFiscalizacion {
     public void setEvidencia(String evidencia) {
         this.evidencia = evidencia;
     }
+    public double calcularMulta(double montoBase) {
     
+    return montoBase;
+}
+
+public double calcularMulta(double montoBase, double recargo) {
+    
+    return montoBase + recargo;
+}
+
+public double calcularMulta(double montoBase, double recargo, double interes) {
+    
+    return montoBase + recargo + interes;
+}
 }
